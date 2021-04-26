@@ -1,0 +1,8 @@
+image:
+   file: Dockerfile
+tasks:
+  - command: 
+      sbt
+vscode:
+  extensions:
+    - scala-lang.scala
