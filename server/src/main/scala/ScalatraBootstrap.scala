@@ -9,8 +9,8 @@ class ScalatraBootstrap extends LifeCycle {
     val servlet = context.addServlet("TinyJSServlet", new TinyJSServlet)
     servlet.setLoadOnStartup(1)
     servlet.addMapping("/firstTinyJS")
-    val servlet2 = context.addServlet("WebAssetServlet", new WebAssetServlet)
-    servlet2.setLoadOnStartup(1)
-    servlet2.addMapping("/caveats")
+    val servlet1 = context.addServlet("WebAssetServlet", new WebAssetServlet)
+    servlet1.setLoadOnStartup(1)
+    servlet1.addMapping("/caveats")
   }
 }

@@ -18,7 +18,7 @@ class WebAssetServlet extends ScalatraServlet {
       <head><title>Test WebAsset</title></head>
       <body>
         <H1>WebAsset Accessibility</H1>
-        <p>
+        <p> 
         In <code>{addSuffix("ScalatraBootstrap")}</code> a route can be mapped to a servlet
         which in turn then defines actions for the given sub-routes. However, one 
         route should not be mapped to any servlet and that is <code> / </code> (the root). 
