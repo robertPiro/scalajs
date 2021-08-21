@@ -25,6 +25,5 @@ object TutorialApp {
     parNode.textContent = text
     targetNode.appendChild(parNode)
   }
-  
 
 }
